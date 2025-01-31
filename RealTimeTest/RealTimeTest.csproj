@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="6.0.4" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="RestSharp" Version="107.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+    <PackageReference Include="Z.BulkOperations" Version="3.0.55" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ATLoggerClass">
+      <HintPath>bin\Debug\netcoreapp3.1\ATLoggerClass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
